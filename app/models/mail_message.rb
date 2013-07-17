@@ -1,5 +1,4 @@
 class MailMessage < ActiveRecord::Base
-    unloadable
-    belongs_to :issue
+  unloadable
+  belongs_to :issue
 end
-
